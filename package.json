@@ -1,5 +1,5 @@
 {
-  "name": "linebot",
+  "name": "otenkikun",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -14,6 +14,8 @@
     "@line/bot-sdk": "^6.2.1",
     "axios": "^0.18.0",
     "dotenv": "^8.0.0",
-    "express": "^4.16.3"
+    "express": "^4.16.3",
+    "jaconv": "github:kazuhikoarase/jaconv",
+    "moment": "^2.24.0"
   }
 }

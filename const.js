@@ -1,4 +1,10 @@
 const WEATHER_API = 'https://api.openweathermap.org/data/2.5/forecast?'
+const MAIN_WEATHER = {
+    'Clear':'晴れ',
+    'Rain':'雨',
+    'Clouds':'くもり',
+    'Snow':'雪',
+}
 const DESCRIPTION = {
     200:'小雨と雷雨',
     201:'雨と雷雨',
@@ -56,6 +62,7 @@ const DESCRIPTION = {
     804:'厚い雲',
 }
 module.exports = {
-    WEATHER_API: WEATHER_API,
-    DESCRIPTION:DESCRIPTION
+    WEATHER_API : WEATHER_API,
+    MAIN_WEATHER : MAIN_WEATHER,
+    DESCRIPTION : DESCRIPTION
 };
